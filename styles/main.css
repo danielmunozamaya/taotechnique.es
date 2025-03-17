@@ -15,7 +15,6 @@ html {
 }
 /* End of Reset and Common Styles */
 
-/* Section 1 */
 .section-1 {
     width: 100%;
     height: 100vh;
@@ -35,13 +34,10 @@ html {
 }
 
 .main-content {
-    height: 600px;
     width: 710px;
     position: absolute;
     top: 18%;
     left: 20%;
-    display: flex;
-    flex-direction: column;
     /* background-color: pink; */
     opacity: 0;
     transform: scale(0.5);
@@ -59,10 +55,8 @@ html {
     }
 }
 
-.main-content-r1 {
-    height: 20%;
+.main-content-company {
     width: 100%;
-    /* background-color: blue; */
     color: #fafafa;
     font-size: 5rem;
     font-weight: 200;
@@ -70,19 +64,16 @@ html {
     align-items: center;
 }
 
-.main-content-r2 {
-    height: 24%;
+.main-content-header {
     width: 100%;
-    /* background-color: gold; */
+    padding-top: 4%;
     font-size: 5rem;
     color: #fafafa;
     font-weight: 600;
 }
 
-.main-content-r3 {
-    height: 22%;
+.main-content-paragraph {
     width: 81%;
-    /* background-color: blueviolet; */
     padding-top: 3%;
     font-size: 2.7rem;
     color: #fafafa;
@@ -91,112 +82,86 @@ html {
     align-items: center;
 }
 
-.main-content-btn {
-    height: 20%;
-    width: 100%;
-    /* background-color: aqua; */
-    /* padding-top: 9%; */
-    position: relative;
-}
-
-.main-content-btn .btn {
-    color: #fafafa;
-    font-weight: 500;
-    background-color: #905748;
-    border: none;
-    font-size: 2.2rem;
-    border-radius: 10px;
-    padding: 1.1rem 1.9rem;
-    /* text-transform: uppercase; */
-    letter-spacing: .1rem;
-    position: absolute;
-    top: 40%;
-    z-index: 999;
-    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
-    transform-origin: left center;
-}
-
-.main-content-btn .pressed {
-    transform: scaleX(0);
-    opacity: 0;
-}
-
-.main-content-contact {
-    height: 65%;
-    width: 94%;
-    /* background-color: peru; */
-    position: absolute;
-    z-index: 1;
-    bottom: 5%;
-    color: #fafafa;
-    font-weight: 500;
-    background-color: #905748;
-    border: none;
-    font-size: 2.3rem;
-    border-radius: 10px;
-    padding: 1.1rem 2.3rem;
-    /* text-transform: uppercase; */
-    letter-spacing: .1rem;
+.main-content-contact-change-display {
     display: flex;
-    align-items: center;
-    transform: scaleX(0);
-    opacity: 0;
+}
+
+.contact-btn,
+.contact-info {
+    margin-top: 7%;
+    color: #fafafa;
+    font-weight: 500;
+    background-color: #905748;
+    border: none;
+    border-radius: 10px;
+    letter-spacing: .1rem;
     transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
     transform-origin: left center;
 }
 
-.main-content-btn .visible {
+.contact-btn {
+    display: inline-block;
+    font-size: 2.2rem;
+    padding: 1.1rem 1.9rem;
+    cursor: pointer;
+}
+
+.btn-pressed {
+    transform: scaleX(0);
+    opacity: 0;
+    display: none;
+}
+
+.contact-btn a {
+    all: unset;
+}
+
+.contact-info {
+    font-size: 2.3rem;
+    padding: 0.7rem 1.9rem;
+    display: flex;
+    align-items: flex-start;
+    width: auto;
+    gap: 5rem;
+    transform: scaleX(0);
+    opacity: 0;
+}
+
+.contact-info-visible {
     transform: scaleX(1);
     opacity: 1;
 }
 
-.main-content-contact svg {
-    width: 20px;
-    height: 20px;
+.contact-info svg {
+    width: 30px;
+    height: 30px;
     fill: #fafafa;
 }
 
-.main-content-contact-phone {
+.contact-info-phone,
+.contact-info-mail,
+.contact-info-linkedin {
     height: 100%;
-    width: 42%;
     display: flex;
     align-items: center;
-    /* background-color: blue; */
 }
 
-.main-content-contact-phone p {
-    margin-left: 5px;
-    margin-bottom: 2px;
+.contact-info-phone {
+    white-space: nowrap;
 }
 
-.main-content-contact-mail {
-    height: 100%;
-    width: 53%;
-    display: flex;
-    align-items: center;
-    /* background-color: antiquewhite; */
+.contact-info-phone p {
+    margin-left: 3.5%;
 }
 
-.main-content-contact-mail svg {
-    margin-left: 10px;
+.contact-info-mail p {
+    margin-left: 3.5%;
+    margin-bottom: 1%;
 }
 
-.main-content-contact-mail p {
-    margin-left: 7px;
-    margin-bottom: 3px;
-}
-
-.main-content-contact-linkedin {
-    height: 100%;
-    width: 5%;
-    display: flex;
-    align-items: center;
-    /* background-color: aquamarine; */
-}
-
-.main-content-contact-linkedin svg {
-    width: 30px;
-    height: 30px;
-    margin-top: 8px;
+.contact-info-linkedin svg {
+    width: 50px;
+    height: 50px;
+    margin-top: 15%;
 }
 /* End of Section 1 */
