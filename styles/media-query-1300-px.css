@@ -1,0 +1,21 @@
+/* Media Queries para 1700px a 1900px */
+@media (max-width: 1299px) {
+    .section-1 {
+        background: linear-gradient(
+            to right,
+            rgba(48,48,48,1) 20%,
+            rgba(48,48,48,0) 100%
+        ),
+        url(../images/pexels-jeswin-15061966-2.jpg) center
+        no-repeat;
+        background-size: cover;
+        background-position: center 40%;
+    }
+
+    .main-content {
+        height: 600px;
+        width: 710px;
+        top: 17%;
+        left: 13%;
+    }
+}

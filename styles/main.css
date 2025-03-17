@@ -21,10 +21,10 @@ html {
     height: 100vh;
     background: linear-gradient(
         to right,
-        rgba(48,48,48,1) 35%,
+        rgba(48,48,48,1) 30%,
         rgba(48,48,48,0) 100%
     ),
-    url(images/pexels-jeswin-15061966-2.jpg) center
+    url(../images/pexels-jeswin-15061966-2.jpg) center
     no-repeat;
     background-size: cover;
     background-position: center 40%;
@@ -35,8 +35,8 @@ html {
 }
 
 .main-content {
-    height: 65%;
-    width: 37%;
+    height: 600px;
+    width: 710px;
     position: absolute;
     top: 18%;
     left: 20%;
