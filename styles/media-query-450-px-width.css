@@ -1,4 +1,4 @@
-/* Media Queries para 1700px a 1900px */
+
 @media (max-width: 450px) {
     .section-1 {
         background: linear-gradient(
@@ -26,7 +26,7 @@
     
     .main-content-company {
         width: 100%;
-        font-size: 3rem;
+        font-size: 3.5rem;
         display: flex;
         justify-content: center;
     }
@@ -74,6 +74,7 @@
         display: initial;
         font-size: 1.7rem;
         padding: 0.7rem 1.5rem;
+        padding-top: 1.6rem;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
