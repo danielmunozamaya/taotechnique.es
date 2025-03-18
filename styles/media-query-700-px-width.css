@@ -14,38 +14,38 @@
         background-position: 20% 50%;
         display: flex;
         justify-content: center;
-        align-items: center;
     }
 
     .main-content {
         width: 95%;
-        height: 90%;
         position: initial;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        padding-top: 15%;
+        /* background-color: pink; */
     }
     
     .main-content-company {
         width: 100%;
-        font-size: 4.5rem;
+        font-size: 4.2rem;
         display: flex;
         justify-content: center;
+        /* background-color: blue; */
     }
     
     .main-content-header {
         width: 92%;
-        padding-top: 5%;
-        font-size: 4rem;
+        padding-top: 3.5%;
+        font-size: 3.7rem;
         font-weight: 600;
         text-align: center;
     }
     
     .main-content-paragraph {
         width: 82%;
-        padding-top: 5%;
-        font-size: 2.1rem;
+        padding-top: 3.5%;
+        font-size: 1.8rem;
         font-weight: 400;
         text-align: center;
         text-shadow: 2px 2px 5px #303030;
@@ -55,7 +55,7 @@
         display: flex;
         justify-content: center;
         width: 75%;
-        padding-top: 3%;
+        padding-top: 2%;
     }
     
     .contact-btn,
@@ -75,7 +75,7 @@
     .contact-info {
         position: initial;
         display: initial;
-        font-size: 2.3rem;
+        font-size: 2rem;
         padding: 1.2rem 1.5rem;
         padding-top: 1.8rem;
         display: flex;

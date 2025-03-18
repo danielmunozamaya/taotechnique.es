@@ -2,7 +2,7 @@
 @media (max-width: 450px) {
     .section-1 {
         background: linear-gradient(
-            to right,
+            to top,
             rgba(48,48,48,1) 0%,
             rgba(48,48,48,0) 100%
         ),
@@ -16,12 +16,12 @@
 
     .main-content {
         width: 95%;
-        height: 90%;
         position: initial;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        padding-top: 20%;
+        /* background-color: pink; */
     }
     
     .main-content-company {
@@ -72,7 +72,7 @@
     .contact-info {
         position: initial;
         display: initial;
-        font-size: 1.7rem;
+        font-size: 2rem;
         padding: 0.7rem 1.5rem;
         padding-top: 1.6rem;
         display: flex;
