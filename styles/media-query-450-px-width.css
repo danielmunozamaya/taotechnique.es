@@ -20,15 +20,26 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 20%;
+        padding-top: 30%;
         /* background-color: pink; */
     }
     
     .main-content-company {
         width: 100%;
-        font-size: 3.5rem;
         display: flex;
         justify-content: center;
+    }
+    
+    .main-content-company img {
+        height: 35px;
+        width: 35px;
+    }
+    
+    .main-content-company p {
+        color: #fafafa;
+        font-size: 3.5rem;
+        font-weight: 200;
+        margin-left: 12px;
     }
     
     .main-content-header {

@@ -28,10 +28,20 @@
     
     .main-content-company {
         width: 100%;
-        font-size: 4.2rem;
         display: flex;
         justify-content: center;
-        /* background-color: blue; */
+    }
+    
+    .main-content-company img {
+        height: 55px;
+        width: 55px;
+    }
+    
+    .main-content-company p {
+        color: #fafafa;
+        font-size: 3.7rem;
+        font-weight: 200;
+        margin-left: 12px;
     }
     
     .main-content-header {
