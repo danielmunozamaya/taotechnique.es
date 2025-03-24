@@ -1,45 +1,17 @@
 
 @media (max-width: 450px) {
-    .section-1 {
-        background: linear-gradient(
-            to top,
-            rgba(48,48,48,1) 0%,
-            rgba(48,48,48,0) 100%
-        ),
-        url(../images/pexels-jeswin-15061966-2.jpg) center
-        no-repeat;
-        background-size: cover;
-        background-position: 20% 50%;
-        display: flex;
-        justify-content: center;
-    }
-
     .main-content {
         width: 95%;
-        position: initial;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        /* justify-content: center; */
         padding-top: 20%;
-        /* background-color: pink; */
-    }
-    
-    .main-content-company {
-        width: 100%;
-        display: flex;
-        justify-content: center;
     }
     
     .main-content-company img {
-        height: 35px;
-        width: 35px;
+        height: 50px;
+        width: 50px;
     }
     
     .main-content-company p {
-        color: #fafafa;
-        font-size: 3.5rem;
-        font-weight: 200;
+        font-size: 3.4rem;
         margin-left: 12px;
     }
     
@@ -47,76 +19,22 @@
         width: 90%;
         padding-top: 5%;
         font-size: 3rem;
-        font-weight: 600;
-        text-align: center;
     }
     
     .main-content-paragraph {
-        width: 82%;
+        width: 80%;
         padding-top: 5%;
         font-size: 1.7rem;
-        font-weight: 400;
-        text-align: center;
-        text-shadow: 2px 2px 5px #303030;
     }
     
     .main-content-contact {
-        display: flex;
-        justify-content: center;
-        width: 75%;
         padding-top: 3%;
     }
     
-    .contact-btn,
     .contact-info {
-        transform-origin: center center;
-    }
-    
-    .contact-btn {
-        display: none;
-        font-size: 1.7rem;
-        padding: 1.1rem 1.9rem;
-        cursor: pointer;
-        display: none;
-        position: absolute;
-    }
-    
-    .contact-info {
-        position: initial;
-        display: initial;
-        font-size: 2rem;
         padding: 1rem 1.8rem;
         padding-top: 1.6rem;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
         gap: 1.8rem;
-        transform: scaleX(1);
-        opacity: 1;
-    }
-    
-    .contact-info svg {
-        width: 20px;
-        height: 20px;
-        fill: #fafafa;
-    }
-    
-    .contact-info-phone,
-    .contact-info-mail,
-    .contact-info-linkedin {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .contact-info-mail {
-        margin-top: 6px;
-    }
-    
-    .contact-info-mail p {
-        margin-left: 6px;
-        margin-bottom: 1px;
     }
 
     .contact-info-phone svg {
