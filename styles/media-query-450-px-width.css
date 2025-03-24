@@ -84,12 +84,12 @@
         position: initial;
         display: initial;
         font-size: 2rem;
-        padding: 0.7rem 1.5rem;
+        padding: 1rem 1.8rem;
         padding-top: 1.6rem;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        gap: 1.3rem;
+        gap: 1.8rem;
         transform: scaleX(1);
         opacity: 1;
     }
@@ -113,13 +113,14 @@
         margin-top: 6px;
     }
     
-    .contact-info-phone p {
-        margin-left: 6px;
-    }
-    
     .contact-info-mail p {
         margin-left: 6px;
         margin-bottom: 1px;
+    }
+
+    .contact-info-phone svg {
+        width: 35px;
+        height: 35px;
     }
     
     .contact-info-linkedin svg {
