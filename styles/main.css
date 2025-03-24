@@ -133,20 +133,6 @@ html {
 
 .contact-info {
     position: absolute;
-
-    /* Para que el elemento comience arriba y a la izquierda del div padre*/
-
-    top: 0;     /* Posición desde el borde izquierdo del contenedor */
-    left: 0;   /* Posición hasta el borde inferior del contenedor */
-    width: auto; /* Ajusta el ancho al contenido */
-
-    /* Para centrar el elemento*/
-
-    /* left: 0; 
-    right: 0; 
-    margin-inline: auto; 
-    width: fit-content; */
-
     font-size: 2.3rem;
     padding: 1.1rem 1.9rem;
     display: flex;
