@@ -2,11 +2,11 @@
 @media (max-width: 769px) {
     .section-1 {
         background: linear-gradient(
-            to right,
+            to bottom,
             rgba(48,48,48,1) 0%,
             rgba(48,48,48,0) 100%
         ),
-        url(../images/pexels-jeswin-15061966-2.jpg) center
+        url(../images/pexels-eberhardgross-2098428.jpg) center
         no-repeat;
         background-size: cover;
         background-position: 20% 50%;
@@ -38,16 +38,16 @@
     }
     
     .main-content-header {
-        width: 92%;
+        width: 100%;
         padding-top: 3.5%;
-        font-size: 3.7rem;
+        font-size: 4.3rem;
         text-align: center;
     }
     
     .main-content-paragraph {
         width: 82%;
         padding-top: 3.5%;
-        font-size: 1.8rem;
+        font-size: 2rem;
         text-align: center;
     }
     
