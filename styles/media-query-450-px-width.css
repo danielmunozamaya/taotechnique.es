@@ -2,7 +2,7 @@
 @media (max-width: 450px) {
     .main-content {
         width: 95%;
-        padding-top: 20%;
+        padding-top: 15%;
     }
     
     .main-content-company img {
@@ -17,22 +17,22 @@
     
     .main-content-header {
         width: 90%;
-        padding-top: 5%;
+        padding-top: 4.5%;
         font-size: 4rem;
     }
     
     .main-content-paragraph {
         width: 75%;
-        padding-top: 5%;
+        padding-top: 4.5%;
         font-size: 2rem;
     }
     
     .main-content-contact {
-        padding-top: 3%;
+        padding-top: 2.5%;
     }
     
     .contact-info {
-        padding: 1rem 1.8rem;
+        padding: 1rem 2.4rem;
         padding-top: 1.6rem;
         gap: 1.8rem;
     }
