@@ -3,52 +3,92 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <!-- <link rel="manifest" href="/site.webmanifest" /> -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
     <title>Tao Technique</title>
     <link rel="stylesheet" href="styles/main.css" />
-    <link rel="stylesheet" href="styles/media-query-1300-px-width.css" />
-    <link rel="stylesheet" href="styles/media-query-769-px-width.css" />
-    <link rel="stylesheet" href="styles/media-query-450-px-width.css" />
-    <link
+    <!-- <link
       href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
-    />
+    /> -->
   </head>
   <body>
-
-    <div class="container">
-      <!-- Section 1 -->
-        <section class="section-1">
-          <div class="main-content">
-            <div class="main-content-company">
-              <img src="images/tao-technique-logo-white.png" alt="Tao Technique - Logo" />
-              <p>Tao Technique</p>
-            </div>
-            <div class="main-content-header">Los Superhéroes que ponen tu Industria en funcionamiento</div>
-            <div class="main-content-paragraph">Automatización Industrial, Desarrollo de Software, Ingeniería Eléctrica | Tecnología que genera riqueza y evita problemas</div>
-            <div class="main-content-contact">
-              <div class="contact-btn" onclick="pressButton()">Habla con nosotros</div>
-              <div class="contact-info">
-                <div class="contact-info-mail">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
-                  <p>daniel@taotechnique.es</p>
-                </div>
-                <div class="contact-info-phone">
-                  <a href="tel:+34638265335">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>
-                  </a>
-                </div>
-                <div class="contact-info-linkedin">
-                  <a href="https://www.linkedin.com/in/danielmunozamaya/" target="_blank" rel="noopener noreferrer">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      <!-- End of Section 1 -->
+    <div class="main-container">
+      <div class="logo">
+        <img
+          src="images/tao-technique-logo-white.png"
+          alt="Tao Technique - Logo"
+        />
+      </div>
+      <p class="p1">
+        <span class="bold"
+          >hola, bienvenido a la página web de
+          <span class="pistaccio bold">Tao Technique</span></span
+        >
+      </p>
+      <p class="p2">
+        Tao Technique es una empresa que da servicios de Automatización
+        Industrial a industrias de todo sector.
+      </p>
+      <p class="p3">
+        <span class="underline">Podemos ayudarte si necesitas:</span>
+      </p>
+      <p class="p4">
+        - Desarrollo y mantenimiento de
+        <span class="pistaccio bold">Software Industrial</span>, Adquisiciones
+        de Datos, programación de PLCs, SCADAs...
+      </p>
+      <p class="p5">
+        - <span class="pistaccio bold">Material Eléctrico</span> de todo tipo y
+        de primeras marcas como ABB, Omron, Schneider, Siemens...
+      </p>
+      <p class="p6">
+        - Diseño y fabricación de
+        <span class="pistaccio bold">Cuadros Eléctricos Industriales</span>,
+        tanto de distribución como de automatismos.
+      </p>
+      <p class="p7">
+        - Diseño, Fabricación y Puesta en Marcha de
+        <span class="pistaccio bold">Automatismos Industriales</span> de
+        cualquier dimensión.
+      </p>
+      <p class="p8 bold">
+        En Tao Technique
+        <span class="underline bold">nos encanta lo que hacemos</span>, por eso
+        <span class="underline bold">cuidamos hasta el más mínimo detalle</span>
+        de nuestros proyectos y damos la atención merecida a las personas para
+        las que trabajamos.
+      </p>
+      <p class="p9">Háblanos y estudiaremos tu caso en profundidad.</p>
+      <p class="p10">Recibe un cordial saludo.</p>
+      <p class="p11">Daniel</p>
+      <p class="p12">
+        <span class="pistaccio">daniel@taotechnique.es</span> |
+        <a href="https://wa.me/34638265335" target="_blank"
+          ><span class="pistaccio">+34 638 26 53 35</span></a
+        >
+      </p>
+      <!-- <p class="p13">+34 638 26 53 35</p> -->
+      <p class="p13">
+        @Tao Technique - El
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20px"
+          height="20px"
+          viewBox="0 0 16 16"
+          fill="none"
+        >
+          <path
+            d="M1.24264 8.24264L8 15L14.7574 8.24264C15.553 7.44699 16 6.36786 16 5.24264V5.05234C16 2.8143 14.1857 1 11.9477 1C10.7166 1 9.55233 1.55959 8.78331 2.52086L8 3.5L7.21669 2.52086C6.44767 1.55959 5.28338 1 4.05234 1C1.8143 1 0 2.8143 0 5.05234V5.24264C0 6.36786 0.44699 7.44699 1.24264 8.24264Z"
+            fill="#9cd08f"
+          />
+        </svg>
+        de tu industria
+      </p>
     </div>
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
   </body>
 </html>
